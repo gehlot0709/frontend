@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prime Number Check</title>
+  </head>
+  <body>
+    <p>Check if a number is a prime number</p>
+    <script>
+      let a = parseInt(prompt("Enter your number"));
+
+      if (a === 1) {
+        console.log(`${a} is neither prime nor composite`);
+      } else if (a < 1) {
+        console.log(`${a} is not a prime number`);
+      } else {
+        let isPrime = true;
+
+        for (let i = 2; i < a; i++) {
+          if (a % i === 0) {
+            isPrime = false;
+            break; // Exit loop early if a divisor is found
+          }
+        }
+
+        if (isPrime) {
+          console.log(`${a} is a prime number`);
+        } else {
+          console.log(`${a} is not a prime number`);
+        }
+      }
+    </script>
+  </body>
+</html>

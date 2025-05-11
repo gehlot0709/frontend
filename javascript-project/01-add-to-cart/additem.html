@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Add Product</title>
+    <link rel="stylesheet" href="css/additem.css">
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="d-flex">
+          <div class="logo">
+            <h2>logo</h2>
+          </div>
+          <nav>
+            <ul class="d-flex">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="additem.html">Add Item</a></li>
+              <li><a href="cart.html">Cart</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="products">
+      <div class="container">
+        <form class="col-6">
+          <div>
+            <label for="pName">Product Name</label>
+            <input type="text" id="pName" placeholder="Please enter product name"/>
+          </div>
+          <div>
+            <label for="pImg">Please select image</label>
+            <input type="file" id="pImg"/>
+          </div>
+          <div>
+            <label for="pPrice">Price</label>
+            <input type="text" id="pPrice" placeholder="Please enter product price"/>
+          </div>
+          <div>
+            <label for="category">Select category</label>
+            <select id="category"></select>
+          </div>
+          <div>
+            <label for="pDesc">Description</label>
+            <textarea id="pDesc"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+          </div>
+        </form>
+        <div class="img-preview">
+          <h4>No image selected</h4>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/additem.js"></script>
+  </body>
+</html>

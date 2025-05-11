@@ -1,0 +1,1 @@
+Math.max() return the largest number among provided numbers

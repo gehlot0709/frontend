@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        #name; // private property (using #)
+
+        constructor(name) {
+          this.#name = name;
+        }
+
+        getName() {
+          // public method
+          return this.#name;
+        }
+
+        setName(newName) {
+          // public method
+          if (newName.length > 0) {
+            this.#name = newName;
+          }
+        }
+      }
+
+      const p1 = new Person("Alice");
+      console.log(p1.getName()); // Alice
+
+      p1.setName("Bob");
+      console.log(p1.getName()); // Bob
+
+    //   console.log(p1.#name); //  Error: private field
+    </script>
+  </body>
+</html>

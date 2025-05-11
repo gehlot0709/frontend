@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Check using if-else</p>
+    <p>checking using ternary operator</p>
+    <script>
+      let x = 63;
+      if (x % 2 === 0) {
+        console.log(`${x} is even number`);
+      } else {
+        console.log(`${x} is odd number`);
+      }
+
+      //using ternary operator
+      let y = parseInt(prompt("Enter number"));
+      let result = y % 2 == 0 ? "Even" : "Odd";
+      console.log(`${y} is ${result} number`);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+--> Suppose we have three numbers num1, num2, and num3
+--> TO check if all of them have the same last digit
+--> Divide each number by 10
+-->check the remainder
+-->if all the remaindrs are same, those numbers has the same last digit

@@ -1,0 +1,1 @@
+==> A prime Number is a positive integer thar is only divisible by 1 and itself. for example 5 7 11 

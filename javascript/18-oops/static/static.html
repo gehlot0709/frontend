@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class account {
+        #id;
+        static objcount = 0;
+        constructor(value2, value3, value4,) {
+          this.amount = value2;
+          this.holder = value3;
+          this.branch = value4;
+          account.objcount++
+          this.#id = account.objcount;
+        }
+        getId() {
+          return this.#id;
+        }
+        print() {
+          console.log(`Id: ${this.#id}`);
+          console.log(`amount: ${this.amount}`);
+          console.log(`holder: ${this.holder}`);
+          console.log(`branch: ${this.branch}`);
+          return "";
+        }
+      }
+
+      const a1 = new account(100, "pratham", "satelite");
+      console.log(a1.getId());
+      
+    </script>
+  </body>
+</html>

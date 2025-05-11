@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Factorial Calculator</title>
+  </head>
+  <body>
+    <script>
+      let number = parseInt(prompt("Please enter your number"), 10);
+
+      function factorial(n) {
+        if (n === 0 || n === 1) {
+          return 1;
+        }
+        return n * factorial(n - 1);
+      }
+
+      console.log(`Factorial of ${number} is: ${factorial(number)}`);
+    </script>
+  </body>
+</html>

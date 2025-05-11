@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Convert Kilometers to Miles</p>
+    <input type="number" step="any">:KMS <br><br>
+    <button>Convert</button>
+    <br>
+    <h2></h2>
+    <script>
+        document.querySelector("button").addEventListener("click",()=>{
+            let kms = document.querySelector("input").value
+            const factor = 0.621371;
+            let miles = kms * factor;
+            document.querySelector("h2").innerText = `Miles: ${miles}`
+        })
+    </script>
+</body>
+</html>

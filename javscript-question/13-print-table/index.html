@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let number = parseInt(prompt("please enter you want table of number "));
+      function table(number) {
+        for (let i = 1; i <= 10; i++) {
+          let res = i * number;
+          console.log(`${number} X ${i} = ${res}`);
+        }
+      }
+      table(number);
+    </script>
+  </body>
+</html>

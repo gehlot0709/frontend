@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>toReversed() Method Demonstration</title>
+  </head>
+  <body>
+    <div id="demo">
+      <h6></h6>
+    </div>
+    <script>
+      // Define the original array
+      const months = ["Jan", "Feb", "Mar", "Apr"];
+
+      const reversed = months.toReversed();
+
+      document.getElementById(
+        "demo"
+      ).innerHTML = `<b>Reversed Array:</b> ${reversed}<br><hr>`;
+
+      document.write(`<b>Original Array:</b> ${months}`);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let str = prompt("enter a string");
+      let strlen = str.length;
+      let msg = "Its is a Palindrome";
+      for (let i = 0; i < strlen / 2; i++) {
+        if (str[i] != str[strlen - 1 - i]) {
+          msg = "It is not a Palindrome";
+        }
+      }
+      console.log(`${str}: ${msg}`);
+    </script>
+  </body>
+</html>
