@@ -1,0 +1,10 @@
+.container{
+    max-width: 1320px;
+    margin: 0 auto;  
+}
+.d-flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Submission</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+    <div class="nav-container">
+      <h1>My Shop</h1>
+      <ul>
+        <li><a href="index.html">Submit Product</a></li>
+        <li><a href="home.html">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+    <div class="container">
+      <div class="form-wrapper">
+        <form id="product-form">
+          <h2>Submit a Product</h2>
+
+          <label>
+            Product Name
+            <input type="text" placeholder="Enter product name" class="pName" />
+          </label>
+
+          <label>
+            Product Price
+            <input type="number" placeholder="Enter product price" class="pPrice" />
+          </label>
+
+          <label>
+            Product Image
+            <input type="file" class="pImg" />
+          </label>
+
+          <label>
+            Category
+            <select class="category"></select>
+          </label>
+
+          <input type="submit" value="Submit" class="submit" />
+        </form>
+
+        <div class="img-preview">
+          <p>Image Preview</p>
+          <img id="preview-img" src="" alt="Preview" />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
