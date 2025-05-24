@@ -1,26 +1,24 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const App = () => {
-  const [num, setNum] = useState(0);
+export default function App() {
+  const [a, seta] = useState(0);
   return (
     <div>
-      <h2>Number is {num}</h2>
+      <h1>Number is {a}</h1>
       <button
         onClick={() => {
-          setNum(num + 1);
+          seta(a + 1);
         }}
       >
-        Increment
+        increment
       </button>
       <button
         onClick={() => {
-          setNum(num - 1);
+          seta(a - 1);
         }}
       >
         Decrement
       </button>
     </div>
   );
-};
-
-export default App;
+}
