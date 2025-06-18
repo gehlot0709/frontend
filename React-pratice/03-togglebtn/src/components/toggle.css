@@ -1,0 +1,33 @@
+.toggle-btn {
+  border: 1px solid black;
+  width: 84px;
+  padding: 2px;
+  border-radius: 30px;
+    transition: 1s;
+}
+.toggle {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+    transition: 1s;
+}
+.active{
+    background-color: red;
+    transform: translate(48px) rotate(360deg);
+    transition: 1s;
+}
+.off{
+    background-color: greenyellow;
+    transform: translate(0) rotate(0);
+    transition: 1s;
+}
+.turnon{
+    background-color: grey;
+}
+.turnoff{
+    background-color: pink;
+}

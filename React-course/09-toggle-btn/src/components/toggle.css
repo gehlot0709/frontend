@@ -1,0 +1,37 @@
+/* Smooth transition for background */
+body {
+    transition: 1s ease-in-out;
+}
+
+.toggle-btn{
+    /* background-color: grey; */
+    height: 42px;
+    width: 94px;
+    display: flex;
+    padding: 4px;
+    background-color: pink;
+    border-radius: 30px;
+}
+.toggle{
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.on{
+    background-color: greenyellow;
+    font-size: 14px;
+    font-weight: bolder;
+    transform: translate(53px) rotate(360deg);
+    transition: 1s;
+}
+.off{
+    background-color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    transform: translate(0) rotate(0);
+    transition: 1s;
+}

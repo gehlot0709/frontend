@@ -1,0 +1,82 @@
+[
+  {
+    "productId": 101,
+    "productName": "Wireless Mouse",
+    "price": 25.99,
+    "inStock": true,
+    "image": "https://picsum.photos/id/1011/320/240",
+    "description": "Smooth and responsive wireless mouse for productivity.",
+    "categories": ["Electronics", "Gadgets"],
+    "rating": 8.7
+  },
+  {
+    "productId": 102,
+    "productName": "Bluetooth Keyboard",
+    "price": 45.5,
+    "inStock": false,
+    "image": "https://picsum.photos/id/1012/320/240",
+    "description": "Compact and comfortable keyboard with Bluetooth support.",
+    "categories": ["Electronics", "Accessories"],
+    "rating": 7.5
+  },
+  {
+    "productId": 103,
+    "productName": "Gaming Mouse",
+    "price": 59.99,
+    "inStock": true,
+    "image": "https://picsum.photos/id/1015/320/240",
+    "description": "High-performance gaming mouse with precision tracking.",
+    "categories": ["Gaming", "Accessories"],
+    "rating": 9.2
+  },
+  {
+    "productId": 104,
+    "productName": "Mechanical Keyboard",
+    "price": 89.99,
+    "inStock": false,
+    "image": "https://picsum.photos/id/1016/320/240",
+    "description": "Durable mechanical keyboard with customizable RGB lighting.",
+    "categories": ["Gaming", "Accessories"],
+    "rating": 8.8
+  },
+  {
+    "productId": 105,
+    "productName": "Wireless Keyboard and Mouse Combo",
+    "price": 75.49,
+    "inStock": true,
+    "image": "https://picsum.photos/id/1025/320/240",
+    "description": "Convenient wireless keyboard and mouse set for multitasking.",
+    "categories": ["Electronics", "Gadgets"],
+    "rating": 8.3
+  },
+  {
+    "productId": 106,
+    "productName": "Ergonomic Mouse",
+    "price": 39.99,
+    "inStock": true,
+    "image": "https://picsum.photos/id/1027/320/240",
+    "description": "Designed for comfort and precision, great for long hours.",
+    "categories": ["Accessories", "Office"],
+    "rating": 7.9
+  },
+  {
+    "productId": 107,
+    "productName": "Compact Keyboard",
+    "price": 55.99,
+    "inStock": false,
+    "image": "https://picsum.photos/id/1031/320/240",
+    "description": "Space-saving keyboard ideal for travel or small setups.",
+    "categories": ["Electronics", "Portable"],
+    "rating": 7.4
+  },
+  {
+    "productId": 108,
+    "productName": "Silent Keyboard and Mouse",
+    "price": 69.99,
+    "inStock": true,
+    "image": "https://picsum.photos/id/1035/320/240",
+    "description": "Whisper-quiet typing and clicking for distraction-free work.",
+    "categories": ["Office", "Accessories"],
+    "rating": 8.6
+  }
+]
