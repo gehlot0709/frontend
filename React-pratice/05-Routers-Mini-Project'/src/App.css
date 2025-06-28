@@ -1,0 +1,20 @@
+header .container h2{
+    color: orange;
+}
+header .container nav{
+    margin-left: auto;
+}
+header {
+    background-color: grey;
+    padding: 4px 0;
+}
+header .container nav a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+header .container nav a:hover{
+    color: orange;
+}

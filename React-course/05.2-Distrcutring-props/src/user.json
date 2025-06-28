@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Aarav Mehta",
+    "age": 25,
+    "city": "Ahmedabad",
+    "profession": "Software Engineer"
+  },
+  {
+    "id": 2,
+    "name": "Diya Patel",
+    "age": 22,
+    "city": "Surat",
+    "profession": "UI/UX Designer"
+  },
+  {
+    "id": 3,
+    "name": "Raj Shah",
+    "age": 28,
+    "city": "Vadodara",
+    "profession": "Backend Developer"
+  }
+]
