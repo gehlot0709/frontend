@@ -1,0 +1,10 @@
+.super_hit {
+  background-color: greenyellow;
+  padding: 1px 8px;
+  border-radius: 8px;
+}
+.average {
+  background-color: yellow;
+  padding: 1px 8px;
+  border-radius: 8px;
+}

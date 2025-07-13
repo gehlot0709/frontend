@@ -1,17 +1,15 @@
 import "./App.css";
+import { Props } from "./components/Props";
 import users from "./user.json";
-import Props from "./components/Props";
 function App() {
   return (
     <>
-      <h2>All userfiles</h2>
-      {users.map((user) => (
-        <Props key={user.id} {...user} />
+      <h2>Props</h2>
+      {users.map((item)=>(
+        <Props key={item.id} {...item} />
       ))}
     </>
   );
 }
 
 export default App;
-
-

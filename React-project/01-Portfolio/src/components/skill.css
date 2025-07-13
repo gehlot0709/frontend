@@ -1,0 +1,13 @@
+.skill-icon {
+  padding: 16px;
+  transition: 1s;
+}
+
+.skill-icon .icon {
+  transition: 0.5s;
+  margin: 8px;
+}
+
+.skill-icon:hover .icon {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,20 @@
+.card-item h2 {
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.card-item p {
+  margin-bottom: 16px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.card-item {
+  padding: 16px;
+  background-color: pink;
+  margin: 0 16px;
+  transition: 1s;
+}
+.card-item:hover {
+  border: 2px solid black;
+  transform: rotate(360deg) scale(1.2);
+}

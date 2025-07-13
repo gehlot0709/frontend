@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Pratham Gehlot",
+    "age": 22,
+    "city": "Ahmedabad",
+    "profession": "Frontend Developer"
+  },
+  {
+    "id": 2,
+    "name": "Riya Sharma",
+    "age": 24,
+    "city": "Mumbai",
+    "profession": "UI/UX Designer"
+  },
+  {
+    "id": 3,
+    "name": "Aman Verma",
+    "age": 27,
+    "city": "Delhi",
+    "profession": "Backend Developer"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "age": 23,
+    "city": "Surat",
+    "profession": "Full Stack Developer"
+  }
+]

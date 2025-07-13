@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Thriller",
+    "rating": 4.7,
+    "releaseYear": 2016,
+    "seasons": 4
+  },
+  {
+    "id": 2,
+    "title": "The Witcher",
+    "genre": "Fantasy, Action",
+    "rating": 4.3,
+    "releaseYear": 2019,
+    "seasons": 3
+  },
+  {
+    "id": 3,
+    "title": "Money Heist",
+    "genre": "Crime, Drama",
+    "rating": 4.6,
+    "releaseYear": 2017,
+    "seasons": 5
+  },
+  {
+    "id": 4,
+    "title": "Wednesday",
+    "genre": "Mystery, Comedy",
+    "rating": 4.4,
+    "releaseYear": 2022,
+    "seasons": 1
+  }
+]
